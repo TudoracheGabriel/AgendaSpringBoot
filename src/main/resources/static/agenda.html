@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agenda</title>
+    <link rel="stylesheet" href="agendaCSS.css" />
+  </head>
+  <body>
+    <div class="container">
+        <div class="screen">
+            <div class="time"></div>
+            <div class="location-info" id="location-info"></div>
+            <button id="add-contact">Adaugă Contact Nou</button>
+            <button id="view-agenda">Vezi Agenda</button>
+          </div> 
+      <button class="green_button">📞</button>
+      <button class="delete_button" id="delete-char-button">⌫</button>
+      <button class="red_button" onclick="window.location.href='index.html'">☎️</button>
+      <div class="numbers">
+        <button class="one">1</button>
+        <button class="two">2</button>
+        <button class="three">3</button>
+        <button class="four">4</button>
+        <button class="five">5</button>
+        <button class="six">6</button>
+        <button class="seven">7</button>
+        <button class="eight">8</button>
+        <button class="nine">9</button>
+        <button class="star">*</button>
+        <button class="zero">0</button>
+        <button class="hash">#</button>
+      </div> <!--  end of numbers  -->
+    </div> <!--  end of container  -->
+    <script type="module" src="utils.js"></script>
+    <script type="module" src="agendaScript.js"></script>
+  </body>
+</html>

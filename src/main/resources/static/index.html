@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agenda</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+        <div class="screen">
+          <div class="time"></div>
+          <div class="location-info" id="location-info"></div>
+            <div class="menu" id="menu-container" style="display: none;">
+              <button class="menu-option" id="agenda" onclick="window.location.href='agenda.html'">Agenda</button>
+              <button class="menu-option" id="calculator" onclick="window.location.href='calculator.html'">Calculator</button>
+              <button class="menu-option" id="banca" onclick="window.location.href='banca.html'">Banca</button>
+            </div>
+            <button class="menu-text" id="menu-text" >Meniu</button>
+          </div>            
+      <button class="green_button" >📞</button>
+      <button class="delete_button" id="back_button">⌫</button>
+      <button class="red_button" onclick="window.location.href='index.html'">☎️</button>
+      <div class="numbers">
+        <button class="one">1</button>
+        <button class="two">2</button>
+        <button class="three">3</button>
+        <button class="four">4</button>
+        <button class="five">5</button>
+        <button class="six">6</button>
+        <button class="seven">7</button>
+        <button class="eight">8</button>
+        <button class="nine">9</button>
+        <button class="star">*</button>
+        <button class="zero">0</button>
+        <button class="hash">#</button>
+      </div> <!--  end of numbers  -->
+    </div> <!--  end of container  -->
+    <script type="module" src="utils.js"></script>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
